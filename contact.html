@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The white cloth</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+    <body>
+        <header>
+            <h1>The white cloth</h1>
+        </header>
+
+            <h2>Contact</h2>
+
+        <section>  
+                <div class="container-navbar">
+                    <div class="navbar">
+                        <a href="./restaurant.html">Home</a>
+                        <a href="./menu.html">Menu</a>
+                        <a href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="Contact-control">
+            <form action="mailto: caaberg99@gmail.com" method="post" enctype="text/plain">
+            <p class="information-required-field"><span class="required"></span class=""> Required field</p>
+            
+            <fieldset>
+                <legend>Guest information</legend>
+                    <div class="field">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" class="first-name" name="first-name" id="first-name" placeholder="Enter your first name">
+                    </div>
+
+                    <div class="field">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" class="last-name" name="last-name" id="last-name" placeholder="Enter your last name">
+                    </div>
+                    
+                    <div class="field">
+                        <label class="required" for="email-adress">E-mail adress:</label>
+                        <input type="text" class="email-adress required" name="email-adress" id="email-adress" placeholder="Enter your Email adress" required>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Write your message below:</legend>
+                    <div class="field">
+                        <label class="user-message required" for="user-message">let us know whats on your mind!</label>
+                        <textarea name="user-message" id="user-message" class="user-message required" cols="50" rows="5" placeholder="..." required></textarea>
+                    </div>
+            </fieldset>
+            <button>send now!</button>
+
+            </form>
+        </section>
+
+        
+        <footer class="footer-descriptor">
+            <div>
+                <p> Norra Evlinge gårdsväg 25</p>
+                <p>Carl Åberg</p>
+                <p>+46-732393999</p>
+            </div>
+        </footer>
+    </body>
+</html>
